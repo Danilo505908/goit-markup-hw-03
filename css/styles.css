@@ -179,6 +179,14 @@ a {
     border: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
